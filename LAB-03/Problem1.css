@@ -1,0 +1,6 @@
+table, th, td{
+    border-collapse: collapse;
+}
+.text-center {
+    text-align: center;
+  }

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab-03 Problem-01</title>
+    <link rel="stylesheet" href="Problem1.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td >1</td>
+            <td>
+                <table>
+                    <tr>
+                        <td colspan="2"><h1>Registration Form</h1></td>
+                    </tr>
+                    <tr>
+                        <td align="right"<label for="UserId">User Id:</label></td>
+                        <td><input type="number" id="UserId" name="UserId" required minlength="5" maxlength="12" placeholder="required"</td>
+                    </tr>
+                    <tr>
+                        <td align="right"<label for="Password">Password:</td>
+                        <td><input type="text" id="Password" name="Password" required minlength="7" maxlength="12" placeholder="required"></td>
+                    </tr>
+                    <tr>
+                        <td align="right"<label for="alpha">Name:</td>
+                        <td><input type="alpha" id="alpha" pattern="[a-zA-Z0-9]+" required minlength="7" maxlength="12" placeholder="required"></td>
+                    </tr>
+                    <tr>
+                        <td align="right"<label for="Address">Address:</td>
+                        <td><input type="text" id="Address"></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="Country"> Country:</label></td>
+                        <td>
+                            <select name="Country" id="Country" required placeholder="Required">
+                                <option value="Bangladesh">Bangladesh</option>
+                                <option value="India">India</option>
+                                <option value="Pakistan">Pakistan</option>
+                                <option value="Nepal">Nepal</option>
+                                <option value="Bhutan">Bhutan</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="ZIP">ZIP Code:</label></td>
+                        <td><input type="number" id="ZIP" placeholder="Required"></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="Email">Email:</label></td>
+                        <td><input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" /></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="Sex">Sex:</label></td>
+                        <td>
+                            <input type="radio" id="html" name="fav_language" value="HTML">
+                            <label for="html">Male</label>
+                            <input type="radio" id="css" name="fav_language" value="CSS">
+                            <label for="css">Female</label>
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="Language">Language:</label></td>
+                        <td>
+                            <input type="checkbox" id="html" name="fav_language" value="HTML">
+                            <label for="html">English</label>
+                            <input type="checkbox" id="css" name="fav_language" value="CSS">
+                            <label for="css">Non English</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="About">About:</label></td>
+                        <td><div style="width: 200px; height: 100px; border: 1px solid black;"></div></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div class="text-center">
+                                <button type="submit">Submit</button>
+                              </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
